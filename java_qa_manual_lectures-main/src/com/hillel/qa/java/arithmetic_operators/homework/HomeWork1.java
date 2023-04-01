@@ -1,5 +1,7 @@
 package com.hillel.qa.java.arithmetic_operators.homework;
 
+import java.util.Date;
+
 public class HomeWork1 {
     /**
      * <p style="font-size:12px">
@@ -14,6 +16,8 @@ public class HomeWork1 {
      * </ul>
      */
     public static void main(String[] args) {
-
+        int currentYear = 2024;
+        int friendYear = 1996;
+        System.out.println("Моєму другу"+ (currentYear - friendYear ) +"років");
     }
 }

@@ -8,6 +8,10 @@ public class HomeWork1 {
      *  </p>
      */
     public static void main(String[] args) {
+       String Name = "Vlad" ;
+        int age = 30;
+        if (age >= 18 && age <=26 );
+        System.out.println( Name + " вітаю ви розібралися як працює if");
 
     }
 }

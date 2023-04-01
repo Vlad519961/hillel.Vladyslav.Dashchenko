@@ -15,5 +15,11 @@ public class HomeWork1 {
      */
     public static void main(String[] args) {
 
+        boolean isInsurance  = true ;
+        boolean medical_permission  = true;
+        int age = 30;
+        boolean result = age >=16 && isInsurance && medical_permission ;
+        System.out.println(result);
+
     }
 }

@@ -22,6 +22,19 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
-
+        switch (5250) {
+            case (5000):
+                System.out.println( "commissionRate =0.0");
+                break;
+            case (5100):
+                System.out.println ("commissionRate = 0.02");
+                break;
+            case (5250):
+                System.out.println ("commissionRate = 0.05");
+                break;
+            default:
+                System.out.println("Непідтримуваний спосіб оплати");
+                return;
+        }
     }
 }
